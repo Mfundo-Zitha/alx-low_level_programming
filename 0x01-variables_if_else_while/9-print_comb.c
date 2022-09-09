@@ -1,27 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: 0 Success
- */
+ ** main -  program that prints all the numbers of base 16 in lowercase
+ ** You can only use the putchar function
+ ** Return: 0
+ **/
+
 int main(void)
-
 {
-	int number;
-
-	for (number = 48; number <= 57; number++)
+	int n = 48;
+	int l = 'a';
+	while (n <= 57)
 	{
-		putchar(number);
-
-		if (number == 57)
-		{
-			break;
-		}
-
-		putchar(',');
-		putchar (' ');
+		putchar(n);
+		n += 1;
 	}
-
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
 	putchar('\n');
-
 	return (0);
+}
