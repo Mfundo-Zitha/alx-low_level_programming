@@ -3,7 +3,7 @@
  * main - program that prints the alphabet in lowercase, followed by a new line
  *
  * Description: using the main function
- * You can only use the putchar
+ * this program prints
  * Return: 0
  */
 int main(void)
