@@ -3,19 +3,19 @@
  * main - Entry point
  *
  * Return: Always 0 (Success/correct)
+ * Description
+ * all seems well
  */
 int main(void)
 
 {
-int i;
+	int i;
 
-for (i = 48; i <= 57; i++)
-(
-putchar (i);
-}
+	for (i = '0'; i <= '9'; i++)
 
-putchar ('\n');
+		putchar (i);
+		putchar ('\n');
 
-return (0);
+	return (0);
 
 }
