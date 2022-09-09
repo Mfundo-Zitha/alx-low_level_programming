@@ -3,19 +3,20 @@
 #include <stdio.h>
 
 /**
- ** main - program that prints the alphabet in lowercase, followed by a new line
- ** You can only use the putchar
- ** Return: 0
-**/
+* main - program that prints the alphabet in lowercase, followed by a new line
+* Descriptiob: using the main function
+* You can only use the putchar
+* Return: 0
+*/
 
 int main(void)
 {
-	int l = 'a';
-	while (l <= 'z')
-	{
-		putchar(l);
-		l += 1;
-	}
-	putchar('\n');
-	return (0);
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+	putchar(ch);
+}
+
+putchar('\n');
+return (0);
 }
