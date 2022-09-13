@@ -6,7 +6,7 @@
 
 void times_table(void)
 {
-	int numm mult, prod;
+	int num mult, prod;
 
 	for (num = 0; num <= 0; num++)
 	{
