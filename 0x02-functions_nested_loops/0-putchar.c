@@ -1,7 +1,5 @@
-#include "main.h";
+#include "main.h"
 /**
-*
-* prints _alphabet
 * main - prints putchar
 * Return: Always 0
 */
