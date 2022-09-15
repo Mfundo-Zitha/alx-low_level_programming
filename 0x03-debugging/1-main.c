@@ -12,8 +12,7 @@ int i;
 printf("Infinite lopp incoming :(\n");
 
 i = 0;
-/*
-*while (i < 10)
+/*while (i < 10)
 *{
 *putchar(i);
 *}
