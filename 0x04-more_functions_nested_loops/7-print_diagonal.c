@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal -> printing line
- * @size: integer params
+ * @n: integer params
  */
 void print_diagonal(int n)
 {
