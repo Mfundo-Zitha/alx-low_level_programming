@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - prints every other charcater in the string
+ * puts2 - prints every other charcater in the string
  * @str: pointer to string.
  *
  * Return: void.
