@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _strcpty - copier el contenido
- * @DEST: tHIS IS THE destiny
+ * _strcpy - copier el contenido
+ * @dest: tHIS IS THE destiny
  * @src: This is nthe copia
  *
- * Return: This return copy 
+ * Return: This return copy
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *start = dest:
+	char *start = dest;
 
-	while (*stc != '\0')
+	while (*src != '\0')
 	{
 		*dest = *src;
 		dest++;
