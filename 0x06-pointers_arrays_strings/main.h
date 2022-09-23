@@ -3,9 +3,9 @@
 
 /**
  * File: main.h
- * Auth: Mfundo Zitha
+ * Auth: Mfundo Zith(Mfundo-Zith)a
  *
- * Desc: Header file containing protye
+ * Desc: Header file containing prototype of all functions
  */
 
 int _putchar(char c);
