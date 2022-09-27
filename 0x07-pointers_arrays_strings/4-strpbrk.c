@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * _strpbrk - prints the consecutive char
  * @s: source string
- * @accep: searching string
+ * @accept: searching string
  *
  * Return: new string.
  */
@@ -14,7 +15,7 @@ char *_strpbrk(*char *s, char *accept)
 	{
 		for (j = 0; *(accept + j); j++)
 		{
-			if (*(s + i) == *(accept +j))
+			if (*(s + i) == *(accept + j))
 			{
 				break;
 			}
