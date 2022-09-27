@@ -2,7 +2,8 @@
 /**
  * _strchr - Locates a character in a string
  * @s: String
- * @c: Character to search 
+ * @c: Character to search
+ * Return: Pointetrs
  */
 
 char *_strchr(char *s, char c)
