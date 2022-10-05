@@ -29,7 +29,7 @@ return (0);
 count++;
 }
 return (1);
-
+}
 /**
  * main - Print the name of the program
  * @argc: Count arguments
