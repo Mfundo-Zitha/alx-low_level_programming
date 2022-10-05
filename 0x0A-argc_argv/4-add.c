@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 /**
  * check_num - check - string there are digit
@@ -38,3 +38,4 @@ return (1);
  */
 
 int main(int argc, char *argv[])
+
