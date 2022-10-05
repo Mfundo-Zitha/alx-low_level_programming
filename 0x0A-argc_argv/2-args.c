@@ -4,7 +4,7 @@
 /**
  * main - Print the name of the program
  * @argc: Couunt arguments
- * @argv; Arguments
+ * @argv: Arguments
  *
  * Return: Always 0 (Success)
  */
