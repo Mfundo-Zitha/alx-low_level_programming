@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
@@ -21,7 +20,7 @@ count = 0;
 while (count < strlen(str)) /*count string*/
 
 {
-if (lisdigit(str[count])) /*check if str there are digit*/
+if (!isdigit(str[count])) /*check if str there are digit*/
 {
 return (0);
 }
