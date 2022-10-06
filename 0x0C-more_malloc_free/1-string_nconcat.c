@@ -1,8 +1,8 @@
-#include "main."
+#include "main.h"
 
 /**
  * string_nconcat - concatenates two strings
- * @s1; FIRST STRING
+ * @s1: FIRST STRING
  * @s2: SECOND STRING
  * @n: index
  * Return: char pointer
@@ -17,7 +17,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while (s1[size1] != '\n')
+
+	while (s1[size1] != '\0')
 	{
 		size1++;
 	}
