@@ -20,8 +20,10 @@ int _strlen(char *str)
 
 	return (len);
 }
+
 /**
  * _strcopy - copies a string pointed to by arc including the
+ * 		termination null byte
  * @dest: The buffer
  * @src: The source string
  *
@@ -39,6 +41,7 @@ char *_strcopy(char *dest, char *src)
 
 	return (dest);
 }
+
 /**
  * new_dog - Creates a new dog.
  * @name: The name of the dog.
@@ -73,6 +76,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggo);
 		return (NULL);
 	}
+
 	doggo->name = _strcopy(doggo->name, name);
 	doggo->age = age;
 	doggo->owner = _strcopy(doggo->owner, owner);
