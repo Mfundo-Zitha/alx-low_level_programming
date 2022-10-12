@@ -1,4 +1,4 @@
-#include "function_pointers"
+#include "function_pointers.h"
 /**
  * int_index - earches for an integer
  * @array: array to search
@@ -6,7 +6,7 @@
  * @cmp: pointer to the comparing function
  *
  * Return: index of the first element
- * the cmp functiondoes not return 0, -1
+ * the cmp functiondoes not return 0, -1 is negative
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
