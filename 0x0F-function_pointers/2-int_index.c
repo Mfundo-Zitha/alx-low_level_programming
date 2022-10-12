@@ -7,7 +7,7 @@
  *
  * Return: index of the first element
  * the cmp functiondoes not return 0, -1
- */i
+ */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
