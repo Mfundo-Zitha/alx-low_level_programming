@@ -5,10 +5,10 @@
  * @size: size of the array
  * @cmp: pointer to the comparing function
  *
- * Rerun: index of the first element
- * the cmp functiondoes not return 0
- */
-int int_index(int *array,int size, int (*cmp)(int))
+ * Return: index of the first element
+ * the cmp functiondoes not return 0, -1
+ */i
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
@@ -22,4 +22,4 @@ int int_index(int *array,int size, int (*cmp)(int))
 	}
 
 	return (-1);
-}
+i}
